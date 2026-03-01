@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Better & Easy PIP</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #764ba2;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    h2 {
+      color: #667eea;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-bottom: 15px;
+      padding-left: 30px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      background: #f0f7ff;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+      margin-top: 30px;
+    }
+
+    a {
+      color: #667eea;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: March 1, 2026</p>
+
+    <p>
+      Better & Easy PIP ("we", "our", or "the extension") is committed to protecting your privacy. 
+      This Privacy Policy explains how our Chrome extension handles your information.
+    </p>
+
+    <h2>Information We Collect</h2>
+    <p><strong>We do NOT collect, store, or transmit any personal information.</strong></p>
+    
+    <p>The extension only stores the following data locally on your device:</p>
+    <ul>
+      <li><strong>Transparency settings:</strong> Your preferred video transparency level (10-100%)</li>
+      <li><strong>Volume settings:</strong> Your preferred volume level (0-100%)</li>
+      <li><strong>Language preference:</strong> Your chosen interface language (English or Turkish)</li>
+    </ul>
+
+    <p>All of this data is stored using Chrome's <code>chrome.storage.sync</code> API, which is:</p>
+    <ul>
+      <li>Stored locally on your device</li>
+      <li>Synced across your Chrome browsers if you're signed in (handled by Chrome, not by us)</li>
+      <li>Never sent to any external server</li>
+      <li>Never shared with third parties</li>
+    </ul>
+
+    <h2>Permissions We Use</h2>
+    <p>The extension requires the following permissions:</p>
+    <ul>
+      <li><strong>activeTab:</strong> To access the current tab and detect video elements</li>
+      <li><strong>scripting:</strong> To inject scripts that control video transparency and volume</li>
+      <li><strong>storage:</strong> To save your preferences locally on your device</li>
+    </ul>
+
+    <h2>Data Usage</h2>
+    <p>The extension uses your settings data only to:</p>
+    <ul>
+      <li>Apply your preferred transparency and volume settings to videos</li>
+      <li>Display the interface in your preferred language</li>
+      <li>Remember your preferences between browser sessions</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>
+      The extension includes a link to Buy Me a Coffee (buymeacoffee.com). 
+      This is only a link - clicking it will open the website in a new tab. 
+      We do not track whether you click this link or not.
+    </p>
+
+    <h2>Data Security</h2>
+    <p>
+      All settings are stored locally using Chrome's built-in storage API. 
+      We do not have access to this data, and it is protected by Chrome's security features.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      The extension does not collect any personal information from anyone, including children under 13.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any changes will be posted on this page 
+      with an updated "Last Updated" date.
+    </p>
+
+    <h2>Open Source</h2>
+    <p>
+      Better & Easy PIP is open source. You can review the complete source code to verify our privacy practices at:
+      <a href="https://github.com/sinanyuzgulec/chrome-extension-better-n-easy-pip" target="_blank">
+        https://github.com/sinanyuzgulec/chrome-extension-better-n-easy-pip
+      </a>
+    </p>
+
+    <div class="contact">
+      <h2 style="margin-top: 0;">Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us:
+      </p>
+      <ul>
+        <li>GitHub Issues: <a href="https://github.com/sinanyuzgulec/chrome-extension-better-n-easy-pip/issues" target="_blank">Report an issue</a></li>
+        <li>Buy Me a Coffee: <a href="https://www.buymeacoffee.com/yourname" target="_blank">Support the project</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better & Easy PIP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-section">
+      <h1 data-i18n="title">🎬 Better & Easy PIP</h1>
+      <select id="languageSelector" class="language-selector">
+        <option value="en">🇬🇧 English</option>
+        <option value="tr">🇹🇷 Türkçe</option>
+      </select>
+    </div>
+    
+    <div class="control-section">
+      <button id="pipButton" class="pip-button">
+        <span class="icon">▶️</span>
+        <span id="pipButtonText">Open PIP Mode</span>
+      </button>
+    </div>
+
+    <div class="control-section">
+      <label for="transparency">
+        <span><span>🔲</span> <span data-i18n="transparency">Transparency</span></span>
+        <span id="transparencyValue">100%</span>
+      </label>
+      <input type="range" id="transparency" min="10" max="100" value="100" step="5">
+    </div>
+
+    <div class="control-section">
+      <label for="volume">
+        <span><span>🔊</span> <span data-i18n="volume">Volume</span></span>
+        <span id="volumeValue">100%</span>
+      </label>
+      <input type="range" id="volume" min="0" max="100" value="100" step="5">
+    </div>
+
+    <div class="status" id="status">
+      No video found or PIP not supported
+    </div>
+
+    <div class="info-box">
+      <span class="info-icon">ℹ️</span>
+      <span data-i18n="infoSinglePip">Chrome allows only one PIP window at a time. Opening PIP here will close any other PIP window.</span>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="support-section">
+      <p class="support-text" data-i18n="supportText">Do you like this extension?</p>
+      <a href="https://www.buymeacoffee.com/yourname" target="_blank" class="coffee-button">
+        <span class="coffee-icon">☕</span>
+        <span data-i18n="buyMeCoffee">Buy Me a Coffee</span>
+      </a>
+    </div>
+
+    <footer>
+      <p data-i18n="footer">Made with ❤️ for better video experience</p>
+    </footer>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
